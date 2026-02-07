@@ -14,6 +14,6 @@ llm =HuggingFacePipeline.from_model_id(model_id="TinyLlama/TinyLlama-1.1B-Chat-v
 model = ChatHuggingFace(llm=llm)
 
 
-result=model.invoke("my name is daman, write something good about me")
+result=model.invoke("write a poem on me and y wife, my name is daman and her name is Mandeep, make it romantic and heartfelt")
 
 print(result.content)
