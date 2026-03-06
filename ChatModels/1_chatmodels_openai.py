@@ -5,6 +5,7 @@ load_dotenv()
 
 model = ChatOpenAI(model="gpt-4.1", temperature=1.2)
 
-result=model.invoke("what makes batman great")
+result=model.invoke("what makes batman great in 20 words")
 
 print(result.content) 
+
